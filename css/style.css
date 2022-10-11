@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Slabo+27px&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Slabo 27px', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+background-color: brown;
+height: 163px;
+width: 100%;
+font-family: "Courier New", Courier, monospace;
+}
+.main {
+background-image: url(../assets/img/pizza-time-tasty-homemade-traditional-pizza-italian-recipe.jpg);
+background-repeat: repeat;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+}
+
+.contenido p{
+height: 100vh;
+text-align: center;
+}
+.footer {
+width: 100%;
+height: 100px;
+background-color: black;
+background-position: bottom;
+}
+.barra-nav {
+list-style: none;
+padding: 0;
+background: #092327;
+width: 90%;
+max-width: 1000%;
+margin: auto;
+margin-right: 0;
+}
+.barra-nav li a {
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+margin-right: 20px;
+}
+.barra-nav li {
+display: inline-block;
+text-align: center;
+}
+.logo-img {
+height: 100px;
+width: 130px;
+padding-left: 10px;
+padding-top: 10px;
+}
+.barra.nav {
+text-align: right;
+}
+.barra-nav li a:hover {
+background-color: rgb(237, 130, 16);
+}
+.footer-container {
+width: 500px;
+height: 80px;
+position: relative;
+left: 40%;
+top: 25%;
+}
+.instagram-img {
+width: 50px;
+height: 50px;
+}
+.facebook-img {
+width: 50px;
+height: 50px;
+}
+.mercadolibre-img {
+width: 140px;
+height: 50px;
+}
+.contenido-empresa {
+height: 100vh;
+text-align: center;
+}
+.contenido-servicios {
+height: 180vh;
+}
+
+.contenido-servicios h1{
+    font-family: "Slabo 27px", serif;
+    font-size: 90px;
+    color: burlywood;
+    text-align: end;
+    padding: 20px;
+}
+.contenido-servicios h3{
+    color: bisque;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 25%;
+    font-family: "Dancing Script", cursive;
+}
+.contenido-servicios p{
+    color: bisque;
+    font-size: 30px;
+    width: 700px;
+    font-family: "Dancing Script", cursive;
+    margin-left: 900px;
+
+}
+.contenido-servicios img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 70%;
+}
+.contenido-presupuestos{
+height: 100vh;
+}
+.contenido-presupuestos h1{
+    font-size: 95px;
+    font-family: "Slabo 27px", serif;
+    color: burlywood;
+    text-align: right;
+    padding: 30px;
+    
+}
+
+.contenido{
+    width: 500px;
+    height: 900px;
+    position: relative;
+    left: 60%;
+    line-height: 90px;
+    top: 100px; 
+}
+.h1-index{
+font-size: 100px;
+font-family: "Slabo 27px", serif; 
+text-align: end;
+color: burlywood;
+position: relative;
+top: 50px;
+}
+
+.contenido p{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Dancing Script", cursive;
+    color: bisque;
+}
+
+.h1-empresa{
+font-size: 95px;
+font-family:'Slabo 27px', serif; 
+text-align: right;
+color: burlywood;
+padding-right: 30px;
+}
+.empresa p{
+    height: 400px;
+    width: 700px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: bisque;
+    padding: 20px;
+    position: relative;
+    left: 55%;
+    margin-top: -500px;
+}
+div video{
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+.contacto{
+    font-size: 90px;
+    text-align: right;
+    color: burlywood;
+    font-family: "Slabo 27px", serif;
+    padding: 20px;
+}
+.formStyle{
+    position: absolute;
+    right: 10%;
+}
+.formulario{
+    font-size: 40px;
+    color: bisque;
+    font-family: 'Dancing Script'
+}
+
+.formulario input{
+    text-align: center;
+    font-size: 20px;
+}
+.presupuesto{
+    color: bisque;
+    font-size: 30px;
+    width: 600px;
+    height: 500px;
+    font-family: "Dancing Script", cursive;
+    margin-left: 700px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+    margin-top: -600px;
+    line-height: 90px;
+    word-spacing: 2px;
+    
+}
